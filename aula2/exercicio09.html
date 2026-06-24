@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 09/title>
+</head>
+<body>
+
+    <h1>Formulário de Candidatura</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <br><br>
+
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" id="data" name="data">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+
+            <label for="escolaridade">Escolaridade:</label>
+
+            <select id="escolaridade" name="escolaridade" required>
+                <option value="">-- Selecione --</option>
+                <option value="fundamental">Ensino Fundamental</option>
+                <option value="medio">Ensino Médio</option>
+                <option value="tecnico">Curso Técnico</option>
+                <option value="superior">Ensino Superior</option>
+                <option value="pos">Pós-Graduação</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Credenciais de Acesso</legend>
+
+            <label for="senha">Senha:</label>
+            <input
+                type="password"
+                id="senha"
+                name="senha"
+                minlength="8"
+                required>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">
+            Concluir Cadastro
+        </button>
+
+    </form>
+
+</body>
+</html>
