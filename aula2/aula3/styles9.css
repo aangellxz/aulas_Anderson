@@ -1,0 +1,73 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #ffe6f0;
+    padding: 30px;
+}
+
+h1 {
+    color: #ff4d79;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* remove a borda quadrada padrão do fieldset */
+fieldset {
+    border: none;
+    border-bottom: 2px solid #ffb3c6;
+    padding: 10px 0 20px 0;
+    margin-bottom: 10px;
+}
+
+/* estiliza a legenda */
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4d79;
+    padding-bottom: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #6b4c5c;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ffb3c6;
+    border-radius: 8px;
+    font-family: inherit;
+}
+
+/* campos obrigatórios ganham uma borda diferenciada */
+input:required, select:required {
+    border-left: 4px solid hotpink;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: hotpink;
+}
+
+button {
+    width: 100%;
+    background-color: hotpink;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1a75;
+}

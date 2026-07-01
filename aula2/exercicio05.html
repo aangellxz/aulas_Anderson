@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aula3/styless5.css">
     <title>Exercício 05</title>
 </head>
 <body>
     <form action="">
-        <label  id="nome" for="">Nome Completo:</label>
-        <input type="text" name="nome"> <br>
+        <label for="nome">Nome Completo:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome..."><br>
 
-        <label id="email" for="">E-mail:</label>
-        <input type="email" name="email" id="email"> <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="email123@gmail.com"> <br>
 
-        <label for="">Área de Interesse:</label>
+        <label for="area">Área de Interesse:</label>
         <select name="area" id="area">
-            <option value="">Front-End</option>
-            <option value="">Back-End</option>
-            <option value="">Infra</option>
+            <option value="frontend">Front-End</option>
+            <option value="backend">Back-End</option>
+            <option value="infra">Infra</option>
         </select> <br>
 
         <button>Enviar Cadastro</button>

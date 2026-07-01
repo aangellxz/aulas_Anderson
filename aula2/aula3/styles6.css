@@ -1,0 +1,47 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #ffe6f0;
+    padding: 40px 20px;
+}
+
+.central {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff0f5;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff4d79;
+}
+
+h2 {
+    color: #ff6f91;
+    margin-top: 25px;
+}
+
+video {
+    width: 100%;
+    border-radius: 12px;
+}
+
+audio {
+    width: 100%;
+}
+
+.botao-download {
+    display: inline-block;
+    background-color: hotpink;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.botao-download:hover {
+    background-color: #ff1a75;
+}

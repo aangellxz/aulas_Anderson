@@ -1,0 +1,49 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #ffe6f0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+label {
+    color: #fc4271;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 2px solid pink;
+    border-radius: 12px;
+    font-family: inherit;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: hotpink;
+    box-shadow: 0 0 0 3px #ffd6e8;
+}
+
+button {
+    background-color: hotpink;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1a75;
+}

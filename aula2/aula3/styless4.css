@@ -1,0 +1,38 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #ffe6f0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px 20px;
+    text-align: left;
+}
+
+thead {
+    background-color: hotpink;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff0f5;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffd6e8;
+}
+
+tr.destaque {
+    background-color: #fff3b0;
+    font-weight: bold;
+    border-left: 4px solid orange;
+}

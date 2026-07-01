@@ -1,0 +1,38 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #ffe6f0;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff6f91;
+    text-align: center;
+}
+
+.caixa {
+    background-color: #fff0f5;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.caixa-obrigacoes {
+    border: 3px solid pink;
+}
+
+.caixa-cancelamento {
+    border: 3px dashed violet;
+}
+
+.caixa h2 {
+    color: #ff4d79;
+}
+
+.caixa li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+strong {
+    color: hotpink;
+}
