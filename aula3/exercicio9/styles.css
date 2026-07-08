@@ -1,0 +1,74 @@
+body {
+  font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
+  background-color: #7a4fa8;
+  background-image: radial-gradient(circle, #ffffff33 1px, transparent 1px);
+  background-size: 24px 24px;
+  padding: 40px;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #ffd23f;
+  text-shadow: 2px 2px 0 #4caf50;
+}
+
+h1::before {
+  content: "✨ ";
+}
+
+h1::after {
+  content: " ✨";
+}
+
+#form-cadastro {
+  background-color: #e893d4;
+  max-width: 340px;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #ffd23f;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #4a1a5c;
+}
+
+#senha {
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 2px solid #4caf50;
+  border-radius: 6px;
+  outline: none;
+}
+
+#senha:focus {
+  border-color: #ffd23f;
+}
+
+#aviso-senha {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#aviso-senha.senha-curta {
+  color: #ffe0f0;
+}
+
+#aviso-senha.senha-curta::before {
+  content: "💫 ";
+}
+
+#aviso-senha.senha-forte {
+  color: #4caf50;
+}
+
+#aviso-senha.senha-forte::before {
+  content: "🌟 ";
+}

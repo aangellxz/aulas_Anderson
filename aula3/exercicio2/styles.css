@@ -1,0 +1,14 @@
+.texto {
+    display: none;
+}
+
+.titulo {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #EEE;
+    border-radius: 5px;
+}
+
+.clausula {
+    margin-bottom: 10px;
+}
